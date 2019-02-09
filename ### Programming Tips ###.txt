@@ -1,0 +1,72 @@
+### HOW-TO ###
+
+# Use the "Deploy Robot Code" shortcut on the taskbar or press 
+	"Ctrl + Shift + D" to start uploading robot code. Ensure that the robot is
+	connected to either by wifi or by ethernet cable.
+# Use the "Robot Simulator" shortcut on the taskbar to start simulating robot
+	code. Make sure you have a controller plugged up.
+
+### IMPORTANT REMINDERS ###
+
+# Variables that start with "self." are usable in the entire class.
+# Variables without "self." are only usable in that function.
+# "self." variables should only be initialized in the robotInit() function.
+# Variables that do not need to be used in more than one function should not be 
+	made "self." variables, for the sanity of the programmer.
+	
+# Functions, classes, and multi-line strings (triple quotes) can be collapsed or
+	extended by clicking the [+] or [-] to the left of the start of the block.
+
+	
+	
+### FORMATTING ###
+
+# When titling functions, use triple quotes.
+# When titling sections of code, use triple pounds (see above).
+# When titling lines of codes, use regular comments.
+
+# When writing comments, use a pound sign followed by a space.
+# When removing lines of code, use a pound sign without a space.
+# When writing comments on an existing line of code, place them at the end.
+	Seperate the code and the comment with a space.
+# When writing TODOs, use "#TODO: " at the front of it.
+# Use a full line of 80 pound signs to create a horizontal line to seperate,
+	code, if you want.
+
+# Variable names should be pascalCased, CamelCased, or kebab-cased.
+# Commas should always be followed by a space.
+# Equals signs and other math symbols should be surrounded by spaces.
+# Indents should be made using the Tab key, not using spaces.
+# Blank lines should be used to seperate areas of code into more orginized
+	sections.
+# Three blank lines should be used to seperate functions from one another.
+# Similar lines of code next to one another should have blank space added to
+	keep them consistent.
+	
+	(i.e.)
+	x = (20.2 + 10  )
+	y = (1.5  + 10.2)
+	
+# If a line is longer than 80 characters (the blue line), it should be seperated
+	into shorter lines using valid methods.
+
+# Valid methods for seperating a line into shorter lines are as follows:
+	# Lines that contain commas can be split at those commas. New lines created
+		should be intended such that each piece of text that the commas seperate
+		starts at the same place.
+		
+		list = ["this",
+				"is",
+				"a",
+				"list"]
+				
+	# Long conditional statements can be spit at logic operands (and, or, not).
+		New lines created should start at one indent further than the following
+		lines.
+		
+		if (((this == long) and (length > 80)) or (OCD.active == True)
+				or (!you.care)):
+			doConditional()
+			
+	# Long comments should be split after the last word that ends within the
+		80-character limit. New lines created should also be commented.

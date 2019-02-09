@@ -1,0 +1,44 @@
+32in = 0.4444in scale
+scale = real  * 0.4444 / 32
+real = 32 * scale / 0.4444
+38.5in = 1s 0.7speed
+time(seconds) = distance / 38.5
+90d = 
+
+31.25in * 25.875in | 0.43in * 0.36in
+
+
+:start:
+F 0.62in | 44.64in | 1.16s
+-> Starting Position
+1:
+R 2s
+F 1.31in | 94.33in | 2.45s
+L 2s
+-> 4
+2:
+L 2s
+F 0.31in | 22.32in | 0.58s
+R 2s
+-> 4
+3:
+L 2s
+F 1.31in | 94.33in | 2.45s
+R 2s
+-> 4
+4:
+IF Goal Left THEN: L 2s
+ELSE: R 2s
+F 0.87in | 62.65in | 2.20s
+IF Goal Left THEN: R 2s
+ELSE: L 2s
+F 0.56in | 40.32in | 1.05s
+O
+B 0.56in | 40.32in | 1.05s
+IF Goal Left THEN: L 2s
+ELSE: R 2s
+F 0.87in | 62.65in | 2.20s
+IF Goal Left THEN: R 2s
+ELSE: L 2s
+F 1.00in | 72.01in | 1.87s
+:end:

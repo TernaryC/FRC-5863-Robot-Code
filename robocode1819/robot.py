@@ -35,6 +35,7 @@ def stickFunc(sticks, deadzone, check):
 		
 	return [nx, ny]
 	
+	
 			
 ### Robot Code ###
 

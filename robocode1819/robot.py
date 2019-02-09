@@ -35,8 +35,7 @@ def stickFunc(sticks, deadzone, check):
 		
 	return [nx, ny]
 	
-	
-			
+		
 ### Robot Code ###
 
 class MyRobot(wpilib.IterativeRobot):

@@ -1,0 +1,1711 @@
+Package: acl-dbg
+Version: 2.2.52-r0.105
+Recommends: libc6-dbg, libattr-dbg, libacl-dbg
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 72b4551d3f1fa3825bccd4f9188fa3a5
+Size: 133532
+Filename: acl-dbg_2.2.52-r0.105_cortexa9-vfpv3.ipk
+Source: http://download.savannah.gnu.org/releases/acl/acl-2.2.52.src.tar.gz file://run-ptest file://acl-fix-the-order-of-expected-output-of-getfacl.patch file://test-fix-insufficient-quoting-of.patch file://test-fixups-on-SELinux-machines-for-root-testcases.patch file://relative-libdir.patch;striplevel=0 file://add-missing-configure.ac.patch
+Description:  Utilities for managing POSIX Access Control Lists - Debugging files
+ Utilities for managing POSIX Access Control Lists.  This package contains
+ ELF symbols and related sources for debugging purposes.
+OE: acl
+HomePage: http://savannah.nongnu.org/projects/acl/
+License: LGPLv2.1+ & GPLv2+
+Priority: optional
+
+Package: acl-dev
+Version: 2.2.52-r0.105
+Depends: libacl1, acl (= 2.2.52-r0.105)
+Recommends: libattr-dev, libc6-dev, attr-dev, libacl-dev
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 4f2298b314cdbabb45d7704864b2d945
+Size: 3812
+Filename: acl-dev_2.2.52-r0.105_cortexa9-vfpv3.ipk
+Source: http://download.savannah.gnu.org/releases/acl/acl-2.2.52.src.tar.gz file://run-ptest file://acl-fix-the-order-of-expected-output-of-getfacl.patch file://test-fix-insufficient-quoting-of.patch file://test-fixups-on-SELinux-machines-for-root-testcases.patch file://relative-libdir.patch;striplevel=0 file://add-missing-configure.ac.patch
+Description:  Utilities for managing POSIX Access Control Lists - Development files
+ Utilities for managing POSIX Access Control Lists.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+OE: acl
+HomePage: http://savannah.nongnu.org/projects/acl/
+License: LGPLv2.1+ & GPLv2+
+Priority: optional
+
+Package: acl-doc
+Version: 2.2.52-r0.105
+Section: doc
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 3b9822a8380c04b5b86c3b7f35139094
+Size: 93248
+Filename: acl-doc_2.2.52-r0.105_cortexa9-vfpv3.ipk
+Source: http://download.savannah.gnu.org/releases/acl/acl-2.2.52.src.tar.gz file://run-ptest file://acl-fix-the-order-of-expected-output-of-getfacl.patch file://test-fix-insufficient-quoting-of.patch file://test-fixups-on-SELinux-machines-for-root-testcases.patch file://relative-libdir.patch;striplevel=0 file://add-missing-configure.ac.patch
+Description:  Utilities for managing POSIX Access Control Lists - Documentation files
+ Utilities for managing POSIX Access Control Lists.  This package contains
+ documentation.
+OE: acl
+HomePage: http://savannah.nongnu.org/projects/acl/
+License: LGPLv2.1+ & GPLv2+
+Priority: optional
+
+Package: acl-locale
+Version: 2.2.52-r0.105
+Section: libs
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 0fea668d07c752dbe42308797081798e
+Size: 10736
+Filename: acl-locale_2.2.52-r0.105_cortexa9-vfpv3.ipk
+Source: http://download.savannah.gnu.org/releases/acl/acl-2.2.52.src.tar.gz file://run-ptest file://acl-fix-the-order-of-expected-output-of-getfacl.patch file://test-fix-insufficient-quoting-of.patch file://test-fixups-on-SELinux-machines-for-root-testcases.patch file://relative-libdir.patch;striplevel=0 file://add-missing-configure.ac.patch
+Description:  Utilities for managing POSIX Access Control Lists  Utilities for managing
+ POSIX Access Control Lists.
+OE: acl
+HomePage: http://savannah.nongnu.org/projects/acl/
+License: LGPLv2.1+ & GPLv2+
+Priority: optional
+
+Package: acl-staticdev
+Version: 2.2.52-r0.105
+Depends: acl-dev (= 2.2.52-r0.105)
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 16739c6d3011acb9053a149c8b1ae7f3
+Size: 91134
+Filename: acl-staticdev_2.2.52-r0.105_cortexa9-vfpv3.ipk
+Source: http://download.savannah.gnu.org/releases/acl/acl-2.2.52.src.tar.gz file://run-ptest file://acl-fix-the-order-of-expected-output-of-getfacl.patch file://test-fix-insufficient-quoting-of.patch file://test-fixups-on-SELinux-machines-for-root-testcases.patch file://relative-libdir.patch;striplevel=0 file://add-missing-configure.ac.patch
+Description:  Utilities for managing POSIX Access Control Lists - Development files
+ (Static Libraries)  Utilities for managing POSIX Access Control Lists.
+ This package contains   static libraries for software development.
+OE: acl
+HomePage: http://savannah.nongnu.org/projects/acl/
+License: LGPLv2.1+ & GPLv2+
+Priority: optional
+
+Package: acl
+Version: 2.2.52-r0.105
+Depends: libacl1 (>= 2.2.52), libc6 (>= 2.23)
+Section: libs
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: a802e0892ae95d443d4c97bc8098383b
+Size: 23686
+Filename: acl_2.2.52-r0.105_cortexa9-vfpv3.ipk
+Source: http://download.savannah.gnu.org/releases/acl/acl-2.2.52.src.tar.gz file://run-ptest file://acl-fix-the-order-of-expected-output-of-getfacl.patch file://test-fix-insufficient-quoting-of.patch file://test-fixups-on-SELinux-machines-for-root-testcases.patch file://relative-libdir.patch;striplevel=0 file://add-missing-configure.ac.patch
+Description:  Utilities for managing POSIX Access Control Lists  Utilities for managing
+ POSIX Access Control Lists.
+OE: acl
+HomePage: http://savannah.nongnu.org/projects/acl/
+License: GPLv2+
+Priority: optional
+
+Package: acpica-dbg
+Version: 20150515-r0.3
+Recommends: libc6-dbg
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: fb661fb53a18b338d291032c86c8f62e
+Size: 3686480
+Filename: acpica-dbg_20150515-r0.3_cortexa9-vfpv3.ipk
+Source: https://acpica.org/sites/acpica/files/acpica-unix2-20150515.tar.gz file://no-werror.patch
+Description:  ACPICA tools for the development and debug of ACPI tables - Debugging
+ files  The ACPI Component Architecture (ACPICA) project provides an OS-
+ independent reference implementation of the Advanced Configuration and
+ Power Interface Specification (ACPI). ACPICA code contains those portions
+ of ACPI meant to be directly integrated into the host OS as a kernel-
+ resident subsystem, and a small set of tools to assist in developing and
+ debugging ACPI tables.  This package contains ELF symbols and related
+ sources for debugging purposes.
+OE: acpica
+HomePage: http://www.acpica.org/
+License: BSD | GPLv2
+Priority: optional
+
+Package: acpica-dev
+Version: 20150515-r0.3
+Depends: acpica (= 20150515-r0.3)
+Recommends: libc6-dev, bison-dev, flex-dev
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 8f73d120a6b0d6232ec17c340c50a760
+Size: 1028
+Filename: acpica-dev_20150515-r0.3_cortexa9-vfpv3.ipk
+Source: https://acpica.org/sites/acpica/files/acpica-unix2-20150515.tar.gz file://no-werror.patch
+Description:  ACPICA tools for the development and debug of ACPI tables - Development
+ files  The ACPI Component Architecture (ACPICA) project provides an OS-
+ independent reference implementation of the Advanced Configuration and
+ Power Interface Specification (ACPI). ACPICA code contains those portions
+ of ACPI meant to be directly integrated into the host OS as a kernel-
+ resident subsystem, and a small set of tools to assist in developing and
+ debugging ACPI tables.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+OE: acpica
+HomePage: http://www.acpica.org/
+License: BSD | GPLv2
+Priority: optional
+
+Package: acpica
+Version: 20150515-r0.3
+Depends: libc6 (>= 2.23)
+Provides: iasl
+Replaces: iasl
+Section: console/tools
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 6d106b93413af5c1427f01953a74c779
+Size: 665318
+Filename: acpica_20150515-r0.3_cortexa9-vfpv3.ipk
+Source: https://acpica.org/sites/acpica/files/acpica-unix2-20150515.tar.gz file://no-werror.patch
+Description:  ACPICA tools for the development and debug of ACPI tables  The ACPI
+ Component Architecture (ACPICA) project provides an OS-   independent
+ reference implementation of the Advanced Configuration and   Power
+ Interface Specification (ACPI). ACPICA code contains those portions   of
+ ACPI meant to be directly integrated into the host OS as a kernel-
+ resident subsystem, and a small set of tools to assist in developing and
+ debugging ACPI tables.
+OE: acpica
+HomePage: http://www.acpica.org/
+License: BSD | GPLv2
+Priority: optional
+
+Package: alsa-conf-base
+Version: 1.1.0-r0.5
+Section: libs/multimedia
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: cfd1d4e4bf99a21fc05e06ba46791034
+Size: 3940
+Filename: alsa-conf-base_1.1.0-r0.5_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/lib/alsa-lib-1.1.0.tar.bz2 file://Check-if-wordexp-function-is-supported.patch file://avoid-including-sys-poll.h-directly.patch file://0001-topology-Add-missing-include-sys-stat.h.patch file://0001-pcm_plugin-fix-appl-pointer-not-correct-when-mmap_co.patch
+Description:  ALSA sound library  ALSA sound library.
+OE: alsa-lib
+HomePage: http://www.alsa-project.org
+License: LGPLv2.1 & GPLv2+
+Priority: optional
+
+Package: alsa-conf
+Version: 1.1.0-r0.5
+Section: libs/multimedia
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: a417b7fa11f57af9d7a0d441f1aaf4fd
+Size: 20884
+Filename: alsa-conf_1.1.0-r0.5_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/lib/alsa-lib-1.1.0.tar.bz2 file://Check-if-wordexp-function-is-supported.patch file://avoid-including-sys-poll.h-directly.patch file://0001-topology-Add-missing-include-sys-stat.h.patch file://0001-pcm_plugin-fix-appl-pointer-not-correct-when-mmap_co.patch
+Description:  ALSA sound library  ALSA sound library.
+OE: alsa-lib
+HomePage: http://www.alsa-project.org
+License: LGPLv2.1 & GPLv2+
+Priority: optional
+
+Package: alsa-lib-dbg
+Version: 1.1.0-r0.5
+Recommends: libc6-dbg, libasound-dbg
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: d7d2f22ca778aed3fd8127ea0c855d79
+Size: 1667262
+Filename: alsa-lib-dbg_1.1.0-r0.5_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/lib/alsa-lib-1.1.0.tar.bz2 file://Check-if-wordexp-function-is-supported.patch file://avoid-including-sys-poll.h-directly.patch file://0001-topology-Add-missing-include-sys-stat.h.patch file://0001-pcm_plugin-fix-appl-pointer-not-correct-when-mmap_co.patch
+Description:  ALSA sound library - Debugging files  ALSA sound library.  This package
+ contains ELF symbols and related   sources for debugging purposes.
+OE: alsa-lib
+HomePage: http://www.alsa-project.org
+License: LGPLv2.1 & GPLv2+
+Priority: optional
+
+Package: alsa-lib-dev
+Version: 1.1.0-r0.5
+Depends: alsa-lib (= 1.1.0-r0.5), libasound2
+Provides: alsa-dev
+Replaces: alsa-dev
+Conflicts: alsa-dev
+Recommends: alsa-conf-base-dev, libc6-dev, libasound-dev, alsa-conf-dev
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: f79436ccfb54ca2495aaedeb2cc0cd3e
+Size: 77640
+Filename: alsa-lib-dev_1.1.0-r0.5_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/lib/alsa-lib-1.1.0.tar.bz2 file://Check-if-wordexp-function-is-supported.patch file://avoid-including-sys-poll.h-directly.patch file://0001-topology-Add-missing-include-sys-stat.h.patch file://0001-pcm_plugin-fix-appl-pointer-not-correct-when-mmap_co.patch
+Description:  ALSA sound library - Development files  ALSA sound library.  This package
+ contains symbolic links, header files,   and related items necessary for
+ software development.
+OE: alsa-lib
+HomePage: http://www.alsa-project.org
+License: LGPLv2.1 & GPLv2+
+Priority: optional
+
+Package: alsa-lib
+Version: 1.1.0-r0.5
+Depends: libasound2 (>= 1.1.0), libc6 (>= 2.23)
+Section: libs/multimedia
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: a343891990c7f1f468ae15a609f1cf6a
+Size: 7052
+Filename: alsa-lib_1.1.0-r0.5_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/lib/alsa-lib-1.1.0.tar.bz2 file://Check-if-wordexp-function-is-supported.patch file://avoid-including-sys-poll.h-directly.patch file://0001-topology-Add-missing-include-sys-stat.h.patch file://0001-pcm_plugin-fix-appl-pointer-not-correct-when-mmap_co.patch
+Description:  ALSA sound library  ALSA sound library.
+OE: alsa-lib
+HomePage: http://www.alsa-project.org
+License: LGPLv2.1 & GPLv2+
+Priority: optional
+
+Package: alsa-oss-dbg
+Version: 1.0.17-r1.7
+Recommends: libc6-dbg, libasound-dbg
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 604c410972bd9c70b6a92e4c1ec82c05
+Size: 65590
+Filename: alsa-oss-dbg_1.0.17-r1.7_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/oss-lib/alsa-oss-1.0.17.tar.bz2 file://libio.patch
+Description:  Alsa OSS Compatibility Package - Debugging files  Alsa OSS Compatibility
+ Package.  This package contains ELF symbols and   related sources for
+ debugging purposes.
+OE: alsa-oss
+License: GPLv2
+Priority: optional
+
+Package: alsa-oss-dev
+Version: 1.0.17-r1.7
+Depends: alsa-oss (= 1.0.17-r1.7)
+Recommends: libc6-dev, libasound-dev, alsa-lib-dev
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: ef04ebc63ab68d5d22751e15092ddaac
+Size: 2484
+Filename: alsa-oss-dev_1.0.17-r1.7_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/oss-lib/alsa-oss-1.0.17.tar.bz2 file://libio.patch
+Description:  Alsa OSS Compatibility Package - Development files  Alsa OSS
+ Compatibility Package.  This package contains symbolic links,   header
+ files, and related items necessary for software development.
+OE: alsa-oss
+License: GPLv2
+Priority: optional
+
+Package: alsa-oss-doc
+Version: 1.0.17-r1.7
+Section: doc
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 3ae4562148cfd4449dfad69548de038e
+Size: 1610
+Filename: alsa-oss-doc_1.0.17-r1.7_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/oss-lib/alsa-oss-1.0.17.tar.bz2 file://libio.patch
+Description:  Alsa OSS Compatibility Package - Documentation files  Alsa OSS
+ Compatibility Package.  This package contains documentation.
+OE: alsa-oss
+License: GPLv2
+Priority: optional
+
+Package: alsa-oss-staticdev
+Version: 1.0.17-r1.7
+Depends: alsa-oss-dev (= 1.0.17-r1.7)
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: ea5c2ba8f20b8eb122af64fa14111230
+Size: 82516
+Filename: alsa-oss-staticdev_1.0.17-r1.7_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/oss-lib/alsa-oss-1.0.17.tar.bz2 file://libio.patch
+Description:  Alsa OSS Compatibility Package - Development files (Static Libraries)
+ Alsa OSS Compatibility Package.  This package contains static libraries
+ for software development.
+OE: alsa-oss
+License: GPLv2
+Priority: optional
+
+Package: alsa-oss
+Version: 1.0.17-r1.7
+Depends: libasound2 (>= 1.1.0), libc6 (>= 2.23)
+Section: libs/multimedia
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: d6de52b7cf4e676b8e59565a8e2e67c8
+Size: 23856
+Filename: alsa-oss_1.0.17-r1.7_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/oss-lib/alsa-oss-1.0.17.tar.bz2 file://libio.patch
+Description:  Alsa OSS Compatibility Package  Alsa OSS Compatibility Package.
+OE: alsa-oss
+License: GPLv2
+Priority: optional
+
+Package: alsa-plugins-dbg
+Version: 1.1.0-r0.7
+Recommends: libspeexdsp-dbg, libflac-dbg, libasound-dbg, dbus-lib-dbg, libsndfile-dbg, libpulse-dbg, libpulsecommon-dbg, libjson-c-dbg, libcap-dbg, libc6-dbg, libogg-dbg, libvorbis-dbg, libsamplerate0-dbg
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 7b60b90a48503e590efe2e0e772efc13
+Size: 164336
+Filename: alsa-plugins-dbg_1.1.0-r0.7_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/plugins/alsa-plugins-1.1.0.tar.bz2 file://0001-pph-include-config.h-from-rate_speexrate.c.patch
+Description:  ALSA Plugins - Debugging files  ALSA Plugins.  This package contains ELF
+ symbols and related sources for   debugging purposes.
+OE: alsa-plugins
+HomePage: http://alsa-project.org
+License: LGPLv2.1 & GPLv2+
+Priority: optional
+
+Package: alsa-plugins-dev
+Version: 1.1.0-r0.7
+Depends: alsa-plugins (= 1.1.0-r0.7)
+Recommends: libasound-module-rate-speexrate-dev, libasound-module-pcm-vdownmix-dev, libasound-module-pcm-speex-dev, libpulse-dev, libasound-module-pcm-usb-stream-dev, libasound-module-pcm-pulse-dev, alsa-lib-dev, libasound-module-ctl-oss-dev, libasound-module-pcm-oss-dev, libasound-module-ctl-arcam-av-dev, libcap-dev, libasound-module-ctl-pulse-dev, libflac-dev, libpulsecommon-dev, libc6-dev, libogg-dev, libasound-dev, libasound-module-conf-pulse-dev, libasound-module-rate-samplerate-dev, pulseaudio-dev, libspeexdsp-dev, libasound-module-pcm-upmix-dev, libsndfile-dev, dbus-lib-dev, libvorbis-dev, libjson-c-dev, libsamplerate0-dev
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: da532d1ec390331c4eaa6b18be48265b
+Size: 978
+Filename: alsa-plugins-dev_1.1.0-r0.7_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/plugins/alsa-plugins-1.1.0.tar.bz2 file://0001-pph-include-config.h-from-rate_speexrate.c.patch
+Description:  ALSA Plugins - Development files  ALSA Plugins.  This package contains
+ symbolic links, header files, and   related items necessary for software
+ development.
+OE: alsa-plugins
+HomePage: http://alsa-project.org
+License: LGPLv2.1 & GPLv2+
+Priority: optional
+
+Package: alsa-plugins-pulseaudio-conf
+Version: 1.1.0-r0.7
+Depends: libasound-module-conf-pulse, libasound-module-ctl-pulse, libasound-module-pcm-pulse
+Section: multimedia
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 1ca884846d4735fd7841c8fdafbeb1bf
+Size: 1102
+Filename: alsa-plugins-pulseaudio-conf_1.1.0-r0.7_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/plugins/alsa-plugins-1.1.0.tar.bz2 file://0001-pph-include-config.h-from-rate_speexrate.c.patch
+Description:  ALSA Plugins  ALSA Plugins.
+OE: alsa-plugins
+HomePage: http://alsa-project.org
+License: LGPLv2.1 & GPLv2+
+Priority: optional
+
+Package: alsa-plugins
+Version: 1.1.0-r0.7
+Depends: libasound-module-conf-pulse, libasound-module-pcm-usb-stream, libasound-module-pcm-upmix, libasound-module-ctl-oss, libasound-module-rate-samplerate, libasound-module-pcm-vdownmix, libasound-module-ctl-arcam-av, libasound-module-pcm-pulse, libasound-module-pcm-speex, libasound-module-rate-speexrate, libasound-module-ctl-pulse, libasound-module-pcm-oss
+Section: multimedia
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 4e67460f205f9117602615b2ac30ef49
+Size: 812
+Filename: alsa-plugins_1.1.0-r0.7_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/plugins/alsa-plugins-1.1.0.tar.bz2 file://0001-pph-include-config.h-from-rate_speexrate.c.patch
+Description:  ALSA Plugins  ALSA Plugins.
+OE: alsa-plugins
+HomePage: http://alsa-project.org
+License: LGPLv2.1 & GPLv2+
+Priority: optional
+
+Package: alsa-server
+Version: 1.1.0-r0.5
+Depends: libasound2 (>= 1.1.0), libc6 (>= 2.23)
+Section: libs/multimedia
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: e51d93ef02a8816ec1e3a54181e5d1bf
+Size: 10462
+Filename: alsa-server_1.1.0-r0.5_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/lib/alsa-lib-1.1.0.tar.bz2 file://Check-if-wordexp-function-is-supported.patch file://avoid-including-sys-poll.h-directly.patch file://0001-topology-Add-missing-include-sys-stat.h.patch file://0001-pcm_plugin-fix-appl-pointer-not-correct-when-mmap_co.patch
+Description:  ALSA sound library  ALSA sound library.
+OE: alsa-lib
+HomePage: http://www.alsa-project.org
+License: LGPLv2.1 & GPLv2+
+Priority: optional
+
+Package: alsa-state-dbg
+Version: 0.2.0-r5.8
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 2c3886a0fb7cbfa0c644503c83f3d6c6
+Size: 774
+Filename: alsa-state-dbg_0.2.0-r5.8_cortexa9-vfpv3.ipk
+Source: file://asound.conf file://asound.state file://alsa-state-init
+Description:  Alsa scenario files to enable alsa state restoration - Debugging files
+ Alsa Scenario Files - an init script and state files to restore sound
+ state at system boot and save it at system shut down.  This package
+ contains ELF symbols and related sources for debugging purposes.
+OE: alsa-state
+License: MIT
+Priority: optional
+
+Package: alsa-state-dev
+Version: 0.2.0-r5.8
+Depends: alsa-state (= 0.2.0-r5.8)
+Recommends: alsa-utils-alsactl-dev, initscripts-functions-dev, update-rc.d-dev, initscripts-dev
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: cab40ab47c9a0d75a1a635ea154b7708
+Size: 848
+Filename: alsa-state-dev_0.2.0-r5.8_cortexa9-vfpv3.ipk
+Source: file://asound.conf file://asound.state file://alsa-state-init
+Description:  Alsa scenario files to enable alsa state restoration - Development files
+ Alsa Scenario Files - an init script and state files to restore sound
+ state at system boot and save it at system shut down.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+OE: alsa-state
+License: MIT
+Priority: optional
+
+Package: alsa-state
+Version: 0.2.0-r5.8
+Depends: initscripts-functions, alsa-utils-alsactl
+Recommends: update-rc.d, alsa-states
+Section: base
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 6927610e9bff2fd7a068c6387cc06dcc
+Size: 1622
+Filename: alsa-state_0.2.0-r5.8_cortexa9-vfpv3.ipk
+Source: file://asound.conf file://asound.state file://alsa-state-init
+Description:  Alsa scenario files to enable alsa state restoration  Alsa Scenario Files
+ - an init script and state files to restore sound   state at system boot
+ and save it at system shut down.
+OE: alsa-state
+License: MIT
+Priority: optional
+
+Package: alsa-states
+Version: 0.2.0-r5.8
+Section: base
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: ba28a44340c0eb705bb800a785cda3d6
+Size: 852
+Filename: alsa-states_0.2.0-r5.8_cortexa9-vfpv3.ipk
+Source: file://asound.conf file://asound.state file://alsa-state-init
+Description:  Alsa scenario files to enable alsa state restoration  Alsa Scenario Files
+ - an init script and state files to restore sound   state at system boot
+ and save it at system shut down.
+OE: alsa-state
+License: MIT
+Priority: optional
+
+Package: alsa-tools-dbg
+Version: 1.1.0-r0.3
+Recommends: libc6-dbg, libstdc++-dbg, libasound-dbg, libgcc-s-dbg, libglib-2.0-dbg
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 6d51bfd802d290bd23c2dccf239c14f9
+Size: 165120
+Filename: alsa-tools-dbg_1.1.0-r0.3_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/tools/alsa-tools-1.1.0.tar.bz2 file://autotools.patch file://makefile_no_gtk.patch file://gitcompile_hdajacksensetest file://0001-as10k1-Make-output_tram_line-static-inline.patch
+Description:  Advanced tools for certain ALSA sound card drivers - Debugging files
+ Advanced tools for certain ALSA sound card drivers.  This package
+ contains ELF symbols and related sources for debugging purposes.
+OE: alsa-tools
+HomePage: http://www.alsa-project.org
+License: GPLv2 & LGPLv2+
+Priority: optional
+
+Package: alsa-tools-dev
+Version: 1.1.0-r0.3
+Depends: alsa-tools (= 1.1.0-r0.3)
+Recommends: libgcc-s-dev, ncurses-dev, libglib-2.0-dev, libstdc++-dev, libc6-dev, libasound-dev, alsa-lib-dev
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 13973e4a7ddde97f15759d26bf4d4f39
+Size: 928
+Filename: alsa-tools-dev_1.1.0-r0.3_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/tools/alsa-tools-1.1.0.tar.bz2 file://autotools.patch file://makefile_no_gtk.patch file://gitcompile_hdajacksensetest file://0001-as10k1-Make-output_tram_line-static-inline.patch
+Description:  Advanced tools for certain ALSA sound card drivers - Development files
+ Advanced tools for certain ALSA sound card drivers.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+OE: alsa-tools
+HomePage: http://www.alsa-project.org
+License: GPLv2 & LGPLv2+
+Priority: optional
+
+Package: alsa-tools-doc
+Version: 1.1.0-r0.3
+Section: doc
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 0a870f3e9190032ee39333a3b85dabcc
+Size: 2562
+Filename: alsa-tools-doc_1.1.0-r0.3_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/tools/alsa-tools-1.1.0.tar.bz2 file://autotools.patch file://makefile_no_gtk.patch file://gitcompile_hdajacksensetest file://0001-as10k1-Make-output_tram_line-static-inline.patch
+Description:  Advanced tools for certain ALSA sound card drivers - Documentation files
+ Advanced tools for certain ALSA sound card drivers.  This package
+ contains documentation.
+OE: alsa-tools
+HomePage: http://www.alsa-project.org
+License: GPLv2 & LGPLv2+
+Priority: optional
+
+Package: alsa-tools
+Version: 1.1.0-r0.3
+Depends: libgcc1 (>= 5.3.0), libasound2 (>= 1.1.0), libc6 (>= 2.23), libstdc++6 (>= 5.3.0), libglib-2.0-0 (>= 2.46.2)
+Section: console/utils
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: a4a948e248db054765595fdbb5acb2ad
+Size: 62340
+Filename: alsa-tools_1.1.0-r0.3_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/tools/alsa-tools-1.1.0.tar.bz2 file://autotools.patch file://makefile_no_gtk.patch file://gitcompile_hdajacksensetest file://0001-as10k1-Make-output_tram_line-static-inline.patch
+Description:  Advanced tools for certain ALSA sound card drivers  Advanced tools for
+ certain ALSA sound card drivers.
+OE: alsa-tools
+HomePage: http://www.alsa-project.org
+License: GPLv2 & LGPLv2+
+Priority: optional
+
+Package: alsa-utils-aconnect
+Version: 1.1.0-r0.7
+Depends: libasound2 (>= 1.1.0), libc6 (>= 2.23)
+Section: console/utils
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: dfb959781b5a2ccc696b465876782199
+Size: 6264
+Filename: alsa-utils-aconnect_1.1.0-r0.7_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/utils/alsa-utils-1.1.0.tar.bz2 file://0001-alsactl-don-t-let-systemd-unit-restore-the-volume-wh.patch file://0001-alsabat-rename-to-avoid-naming-conflict.patch
+Description:  ALSA sequencer connection manager  ALSA sound utilities.
+OE: alsa-utils
+HomePage: http://www.alsa-project.org
+License: GPLv2+
+Priority: optional
+
+Package: alsa-utils-alsactl
+Version: 1.1.0-r0.7
+Depends: libasound2 (>= 1.1.0), libc6 (>= 2.23)
+Recommends: alsa-states
+Section: console/utils
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: c1ab87ee407bb9c8db20a7c59edcf0d8
+Size: 42258
+Filename: alsa-utils-alsactl_1.1.0-r0.7_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/utils/alsa-utils-1.1.0.tar.bz2 file://0001-alsactl-don-t-let-systemd-unit-restore-the-volume-wh.patch file://0001-alsabat-rename-to-avoid-naming-conflict.patch
+Description:  Saves/restores ALSA-settings in /etc/asound.state  ALSA sound utilities.
+OE: alsa-utils
+HomePage: http://www.alsa-project.org
+License: GPLv2+
+Priority: optional
+
+Package: alsa-utils-alsaloop
+Version: 1.1.0-r0.7
+Depends: libasound2 (>= 1.1.0), libsamplerate0 (>= 0.1.8), libc6 (>= 2.23)
+Section: console/utils
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 5854d9be445702158abcab110b0dbd69
+Size: 28836
+Filename: alsa-utils-alsaloop_1.1.0-r0.7_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/utils/alsa-utils-1.1.0.tar.bz2 file://0001-alsactl-don-t-let-systemd-unit-restore-the-volume-wh.patch file://0001-alsabat-rename-to-avoid-naming-conflict.patch
+Description:  ALSA PCM loopback utility  ALSA sound utilities.
+OE: alsa-utils
+HomePage: http://www.alsa-project.org
+License: GPLv2+
+Priority: optional
+
+Package: alsa-utils-alsamixer
+Version: 1.1.0-r0.7
+Depends: libncursesw5 (>= 6.0+20160213), libtinfo5 (>= 6.0+20160213), libc6 (>= 2.23), libpanelw5 (>= 6.0+20160213), libmenuw5 (>= 6.0+20160213), libasound2 (>= 1.1.0), libformw5 (>= 6.0+20160213)
+Section: console/utils
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: bc768a6bdd8d19938818100a1b4f9b13
+Size: 24880
+Filename: alsa-utils-alsamixer_1.1.0-r0.7_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/utils/alsa-utils-1.1.0.tar.bz2 file://0001-alsactl-don-t-let-systemd-unit-restore-the-volume-wh.patch file://0001-alsabat-rename-to-avoid-naming-conflict.patch
+Description:  ncurses-based control for ALSA mixer and settings  ALSA sound utilities.
+OE: alsa-utils
+HomePage: http://www.alsa-project.org
+License: GPLv2+
+Priority: optional
+
+Package: alsa-utils-alsatplg
+Version: 1.1.0-r0.7
+Depends: libasound2 (>= 1.1.0), libc6 (>= 2.23)
+Section: console/utils
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: d406c99263f3b73a8b68366d4e9c6b1a
+Size: 3310
+Filename: alsa-utils-alsatplg_1.1.0-r0.7_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/utils/alsa-utils-1.1.0.tar.bz2 file://0001-alsactl-don-t-let-systemd-unit-restore-the-volume-wh.patch file://0001-alsabat-rename-to-avoid-naming-conflict.patch
+Description:  Converts topology text files into binary format for kernel  ALSA sound
+ utilities.
+OE: alsa-utils
+HomePage: http://www.alsa-project.org
+License: GPLv2+
+Priority: optional
+
+Package: alsa-utils-alsaucm
+Version: 1.1.0-r0.7
+Depends: libasound2 (>= 1.1.0), libc6 (>= 2.23)
+Section: console/utils
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 89379b7ac3ff68cb01734bc07f4f417b
+Size: 6202
+Filename: alsa-utils-alsaucm_1.1.0-r0.7_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/utils/alsa-utils-1.1.0.tar.bz2 file://0001-alsactl-don-t-let-systemd-unit-restore-the-volume-wh.patch file://0001-alsabat-rename-to-avoid-naming-conflict.patch
+Description:  ALSA Use Case Manager  ALSA sound utilities.
+OE: alsa-utils
+HomePage: http://www.alsa-project.org
+License: GPLv2+
+Priority: optional
+
+Package: alsa-utils-amixer
+Version: 1.1.0-r0.7
+Depends: libasound2 (>= 1.1.0), libc6 (>= 2.23)
+Section: console/utils
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 6ee87613d6fe92ebed129c72140715d4
+Size: 17938
+Filename: alsa-utils-amixer_1.1.0-r0.7_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/utils/alsa-utils-1.1.0.tar.bz2 file://0001-alsactl-don-t-let-systemd-unit-restore-the-volume-wh.patch file://0001-alsabat-rename-to-avoid-naming-conflict.patch
+Description:  Command-line control for ALSA mixer and settings  ALSA sound utilities.
+OE: alsa-utils
+HomePage: http://www.alsa-project.org
+License: GPLv2+
+Priority: optional
+
+Package: alsa-utils-aplay
+Version: 1.1.0-r0.7
+Depends: libasound2 (>= 1.1.0), libc6 (>= 2.23)
+Section: console/utils
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 2117e8c1cc19b40588dbb916d9413fa6
+Size: 27838
+Filename: alsa-utils-aplay_1.1.0-r0.7_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/utils/alsa-utils-1.1.0.tar.bz2 file://0001-alsactl-don-t-let-systemd-unit-restore-the-volume-wh.patch file://0001-alsabat-rename-to-avoid-naming-conflict.patch
+Description:  Play (and record) sound files using ALSA  ALSA sound utilities.
+OE: alsa-utils
+HomePage: http://www.alsa-project.org
+License: GPLv2+
+Priority: optional
+
+Package: alsa-utils-aseqdump
+Version: 1.1.0-r0.7
+Depends: libasound2 (>= 1.1.0), libc6 (>= 2.23)
+Section: console/utils
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: fd67848a84ea6c84b527833c9cf39411
+Size: 5830
+Filename: alsa-utils-aseqdump_1.1.0-r0.7_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/utils/alsa-utils-1.1.0.tar.bz2 file://0001-alsactl-don-t-let-systemd-unit-restore-the-volume-wh.patch file://0001-alsabat-rename-to-avoid-naming-conflict.patch
+Description:  Shows the events received at an ALSA sequencer port  ALSA sound
+ utilities.
+OE: alsa-utils
+HomePage: http://www.alsa-project.org
+License: GPLv2+
+Priority: optional
+
+Package: alsa-utils-aseqnet
+Version: 1.1.0-r0.7
+Depends: libasound2 (>= 1.1.0), libc6 (>= 2.23)
+Section: console/utils
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: efa12d88d72d903745683275937eca29
+Size: 6876
+Filename: alsa-utils-aseqnet_1.1.0-r0.7_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/utils/alsa-utils-1.1.0.tar.bz2 file://0001-alsactl-don-t-let-systemd-unit-restore-the-volume-wh.patch file://0001-alsabat-rename-to-avoid-naming-conflict.patch
+Description:  Network client/server for ALSA sequencer  ALSA sound utilities.
+OE: alsa-utils
+HomePage: http://www.alsa-project.org
+License: GPLv2+
+Priority: optional
+
+Package: alsa-utils-dbg
+Version: 1.1.0-r0.7
+Recommends: ncurses-libpanelw-dbg, ncurses-libncursesw-dbg, libasound-dbg, ncurses-libtinfo-dbg, ncurses-libmenuw-dbg, ncurses-libformw-dbg, libc6-dbg, libsamplerate0-dbg
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 96c0b86c92b92774f4cc2a6c905f7521
+Size: 527566
+Filename: alsa-utils-dbg_1.1.0-r0.7_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/utils/alsa-utils-1.1.0.tar.bz2 file://0001-alsactl-don-t-let-systemd-unit-restore-the-volume-wh.patch file://0001-alsabat-rename-to-avoid-naming-conflict.patch
+Description:  ALSA sound utilities - Debugging files  ALSA sound utilities.  This
+ package contains ELF symbols and related   sources for debugging
+ purposes.
+OE: alsa-utils
+HomePage: http://www.alsa-project.org
+License: GPLv2+
+Priority: optional
+
+Package: alsa-utils-dev
+Version: 1.1.0-r0.7
+Depends: alsa-utils (= 1.1.0-r0.7)
+Recommends: alsa-utils-iecset-dev, ncurses-libtinfo-dev, ncurses-libncursesw-dev, alsa-utils-alsatplg-dev, alsa-lib-dev, alsa-utils-alsaucm-dev, alsa-utils-midi-dev, alsa-utils-speakertest-dev, ncurses-libformw-dev, udev-dev, ncurses-libpanelw-dev, alsa-utils-aconnect-dev, libc6-dev, libasound-dev, alsa-utils-amixer-dev, ncurses-dev, alsa-utils-aseqdump-dev, ncurses-libmenuw-dev, alsa-utils-alsaloop-dev, alsa-utils-alsamixer-dev, alsa-utils-aseqnet-dev, alsa-utils-aplay-dev, alsa-utils-alsactl-dev, libsamplerate0-dev
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: cfd5ecd337d7aee1553984ae274f92bc
+Size: 986
+Filename: alsa-utils-dev_1.1.0-r0.7_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/utils/alsa-utils-1.1.0.tar.bz2 file://0001-alsactl-don-t-let-systemd-unit-restore-the-volume-wh.patch file://0001-alsabat-rename-to-avoid-naming-conflict.patch
+Description:  ALSA sound utilities - Development files  ALSA sound utilities.  This
+ package contains symbolic links, header   files, and related items
+ necessary for software development.
+OE: alsa-utils
+HomePage: http://www.alsa-project.org
+License: GPLv2+
+Priority: optional
+
+Package: alsa-utils-doc
+Version: 1.1.0-r0.7
+Section: doc
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: e5afc5605fa678b055e03632566ea610
+Size: 21152
+Filename: alsa-utils-doc_1.1.0-r0.7_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/utils/alsa-utils-1.1.0.tar.bz2 file://0001-alsactl-don-t-let-systemd-unit-restore-the-volume-wh.patch file://0001-alsabat-rename-to-avoid-naming-conflict.patch
+Description:  ALSA sound utilities - Documentation files  ALSA sound utilities.  This
+ package contains documentation.
+OE: alsa-utils
+HomePage: http://www.alsa-project.org
+License: GPLv2+
+Priority: optional
+
+Package: alsa-utils-iecset
+Version: 1.1.0-r0.7
+Depends: libasound2 (>= 1.1.0), libc6 (>= 2.23)
+Section: console/utils
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: eaba571b9e135c0cdb4ff2b2c7755386
+Size: 6958
+Filename: alsa-utils-iecset_1.1.0-r0.7_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/utils/alsa-utils-1.1.0.tar.bz2 file://0001-alsactl-don-t-let-systemd-unit-restore-the-volume-wh.patch file://0001-alsabat-rename-to-avoid-naming-conflict.patch
+Description:  ALSA utility for setting/showing IEC958 (S/PDIF) status bits  ALSA sound
+ utilities.
+OE: alsa-utils
+HomePage: http://www.alsa-project.org
+License: GPLv2+
+Priority: optional
+
+Package: alsa-utils-locale
+Version: 1.1.0-r0.7
+Section: console/utils
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: b91fef20081a90b3293a6e9aad38cf5c
+Size: 32174
+Filename: alsa-utils-locale_1.1.0-r0.7_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/utils/alsa-utils-1.1.0.tar.bz2 file://0001-alsactl-don-t-let-systemd-unit-restore-the-volume-wh.patch file://0001-alsabat-rename-to-avoid-naming-conflict.patch
+Description:  ALSA sound utilities  ALSA sound utilities.
+OE: alsa-utils
+HomePage: http://www.alsa-project.org
+License: GPLv2+
+Priority: optional
+
+Package: alsa-utils-midi
+Version: 1.1.0-r0.7
+Depends: libasound2 (>= 1.1.0), libc6 (>= 2.23)
+Section: console/utils
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 27518432d8e252ab17a3a686bf33f4f6
+Size: 19870
+Filename: alsa-utils-midi_1.1.0-r0.7_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/utils/alsa-utils-1.1.0.tar.bz2 file://0001-alsactl-don-t-let-systemd-unit-restore-the-volume-wh.patch file://0001-alsabat-rename-to-avoid-naming-conflict.patch
+Description:  Miscellaneous MIDI utilities for ALSA  ALSA sound utilities.
+OE: alsa-utils
+HomePage: http://www.alsa-project.org
+License: GPLv2+
+Priority: optional
+
+Package: alsa-utils-scripts
+Version: 1.1.0-r0.7
+Depends: alsa-utils-alsamixer, alsa-utils-alsatplg, alsa-utils-alsactl, alsa-utils-speakertest, alsa-utils-amixer, alsa-utils-midi, alsa-utils-aseqnet, alsa-utils-aconnect, alsa-utils-alsaucm, alsa-utils-iecset, alsa-utils-alsaloop, alsa-utils-aplay, bash, alsa-utils-aseqdump
+Section: console/utils
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 9940b54eac92dd0c209afc03ca484e1c
+Size: 19006
+Filename: alsa-utils-scripts_1.1.0-r0.7_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/utils/alsa-utils-1.1.0.tar.bz2 file://0001-alsactl-don-t-let-systemd-unit-restore-the-volume-wh.patch file://0001-alsabat-rename-to-avoid-naming-conflict.patch
+Description:  Shell scripts that show help info and create ALSA configuration files
+ Shell scripts that show help info and create ALSA configuration files.
+OE: alsa-utils-scripts
+HomePage: http://www.alsa-project.org
+License: GPLv2+
+Priority: optional
+
+Package: alsa-utils-speakertest
+Version: 1.1.0-r0.7
+Depends: libasound2 (>= 1.1.0), libc6 (>= 2.23)
+Section: console/utils
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 70ef0d8804cf828bc477b10c6ed7e44d
+Size: 898266
+Filename: alsa-utils-speakertest_1.1.0-r0.7_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/utils/alsa-utils-1.1.0.tar.bz2 file://0001-alsactl-don-t-let-systemd-unit-restore-the-volume-wh.patch file://0001-alsabat-rename-to-avoid-naming-conflict.patch
+Description:  ALSA surround speaker test utility  ALSA sound utilities.
+OE: alsa-utils
+HomePage: http://www.alsa-project.org
+License: GPLv2+
+Priority: optional
+
+Package: alsa-utils
+Version: 1.1.0-r0.7
+Depends: alsa-utils-alsamixer, alsa-utils-alsatplg, alsa-utils-alsactl, alsa-utils-speakertest, alsa-utils-amixer, alsa-utils-midi, alsa-utils-aseqnet, alsa-utils-aconnect, alsa-utils-iecset, alsa-utils-alsaloop, alsa-utils-aplay, alsa-utils-alsaucm, alsa-utils-aseqdump
+Section: console/utils
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 5211c8ff2296b3275aba7f2aee05a799
+Size: 828
+Filename: alsa-utils_1.1.0-r0.7_cortexa9-vfpv3.ipk
+Source: ftp://ftp.alsa-project.org/pub/utils/alsa-utils-1.1.0.tar.bz2 file://0001-alsactl-don-t-let-systemd-unit-restore-the-volume-wh.patch file://0001-alsabat-rename-to-avoid-naming-conflict.patch
+Description:  ALSA sound utilities  ALSA sound utilities.
+OE: alsa-utils
+HomePage: http://www.alsa-project.org
+License: GPLv2+
+Priority: optional
+
+Package: apache2-dbg
+Version: 2.4.23-r0.3
+Recommends: libselinux-dbg, libapr-1-dbg, util-linux-libuuid-dbg, libssl-dbg, libz-dbg, libcrypto-dbg, libpcre-dbg, libc6-dbg, libaprutil-1-dbg
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: ae947615c96b0f570701306575c7af19
+Size: 4053862
+Filename: apache2-dbg_2.4.23-r0.3_cortexa9-vfpv3.ipk
+Source: http://www.apache.org/dist/httpd/httpd-2.4.23.tar.bz2 file://server-makefile.patch file://httpd-2.4.1-corelimit.patch file://httpd-2.4.4-export.patch file://httpd-2.4.1-selinux.patch file://apache-configure_perlbin.patch file://replace-lynx-to-curl-in-apachectl-script.patch file://apache-ssl-ltmain-rpath.patch file://httpd-2.4.3-fix-race-issue-of-dir-install.patch file://0001-configure-use-pkg-config-for-PCRE-detection.patch file://configure-allow-to-disable-selinux-support.patch file://init file://apache2-volatile.conf file://apache2.service file://0001-ssl-clear-the-error-queue-before-SSL_read-write-acce.patch file://mod_session-SessionExpiryUpdateInterval.patch
+Description:  Apache HTTP Server - Debugging files  The Apache HTTP Server is a
+ powerful, efficient, and extensible web   server.  This package contains
+ ELF symbols and related sources for   debugging purposes.
+OE: apache2
+HomePage: http://httpd.apache.org/
+License: Apache-2.0
+Priority: optional
+
+Package: apache2-dev
+Version: 2.4.23-r0.3
+Depends: perl
+Recommends: libgcc-s-dev, libselinux-dev, util-linux-libuuid-dev, libc6-dev, libssl-dev, openssl-dev, libpcre-dev, libcrypto-dev, pcre-dev, perl-dev, update-rc.d-dev, libexpat-dev, libz-dev, libaprutil-1-dev, libapr-1-dev, initscripts-dev
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 9cb9e77a850b96b5c57d06e13667eb55
+Size: 372700
+Filename: apache2-dev_2.4.23-r0.3_cortexa9-vfpv3.ipk
+Source: http://www.apache.org/dist/httpd/httpd-2.4.23.tar.bz2 file://server-makefile.patch file://httpd-2.4.1-corelimit.patch file://httpd-2.4.4-export.patch file://httpd-2.4.1-selinux.patch file://apache-configure_perlbin.patch file://replace-lynx-to-curl-in-apachectl-script.patch file://apache-ssl-ltmain-rpath.patch file://httpd-2.4.3-fix-race-issue-of-dir-install.patch file://0001-configure-use-pkg-config-for-PCRE-detection.patch file://configure-allow-to-disable-selinux-support.patch file://init file://apache2-volatile.conf file://apache2.service file://0001-ssl-clear-the-error-queue-before-SSL_read-write-acce.patch file://mod_session-SessionExpiryUpdateInterval.patch
+Description:  Apache HTTP Server - Development files  The Apache HTTP Server is a
+ powerful, efficient, and extensible web   server.  This package contains
+ symbolic links, header files, and related   items necessary for software
+ development.
+OE: apache2
+HomePage: http://httpd.apache.org/
+License: Apache-2.0
+Priority: optional
+
+Package: apache2-doc
+Version: 2.4.23-r0.3
+Section: doc
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 48c806f58ff9212f7f96a64239b43c08
+Size: 5454840
+Filename: apache2-doc_2.4.23-r0.3_cortexa9-vfpv3.ipk
+Source: http://www.apache.org/dist/httpd/httpd-2.4.23.tar.bz2 file://server-makefile.patch file://httpd-2.4.1-corelimit.patch file://httpd-2.4.4-export.patch file://httpd-2.4.1-selinux.patch file://apache-configure_perlbin.patch file://replace-lynx-to-curl-in-apachectl-script.patch file://apache-ssl-ltmain-rpath.patch file://httpd-2.4.3-fix-race-issue-of-dir-install.patch file://0001-configure-use-pkg-config-for-PCRE-detection.patch file://configure-allow-to-disable-selinux-support.patch file://init file://apache2-volatile.conf file://apache2.service file://0001-ssl-clear-the-error-queue-before-SSL_read-write-acce.patch file://mod_session-SessionExpiryUpdateInterval.patch
+Description:  Apache HTTP Server - Documentation files  The Apache HTTP Server is a
+ powerful, efficient, and extensible web   server.  This package contains
+ documentation.
+OE: apache2
+HomePage: http://httpd.apache.org/
+License: Apache-2.0
+Priority: optional
+
+Package: apache2-scripts
+Version: 2.4.23-r0.3
+Depends: perl, apache2
+Section: net
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 3cd293ce95d863b8b94109fc8f8b37af
+Size: 4326
+Filename: apache2-scripts_2.4.23-r0.3_cortexa9-vfpv3.ipk
+Source: http://www.apache.org/dist/httpd/httpd-2.4.23.tar.bz2 file://server-makefile.patch file://httpd-2.4.1-corelimit.patch file://httpd-2.4.4-export.patch file://httpd-2.4.1-selinux.patch file://apache-configure_perlbin.patch file://replace-lynx-to-curl-in-apachectl-script.patch file://apache-ssl-ltmain-rpath.patch file://httpd-2.4.3-fix-race-issue-of-dir-install.patch file://0001-configure-use-pkg-config-for-PCRE-detection.patch file://configure-allow-to-disable-selinux-support.patch file://init file://apache2-volatile.conf file://apache2.service file://0001-ssl-clear-the-error-queue-before-SSL_read-write-acce.patch file://mod_session-SessionExpiryUpdateInterval.patch
+Description:  Apache HTTP Server  The Apache HTTP Server is a powerful, efficient, and
+ extensible web   server.
+OE: apache2
+HomePage: http://httpd.apache.org/
+License: Apache-2.0
+Priority: optional
+
+Package: apache2
+Version: 2.4.23-r0.3
+Depends: libgcc1, libssl1.0.0 (>= 1.0.2h), libz1 (>= 1.2.8), libselinux1 (>= 2.5), libaprutil-1-0 (>= 1.5.4), openssl, libpcre1 (>= 8.38), libcrypto1.0.0 (>= 1.0.2h), libapr-1-0 (>= 1.5.2), libc6 (>= 2.23), libuuid1 (>= 2.27.1)
+Recommends: update-rc.d
+Section: net
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 6188bc71cf6c02b867a962e005b0c952
+Size: 1011168
+Filename: apache2_2.4.23-r0.3_cortexa9-vfpv3.ipk
+Source: http://www.apache.org/dist/httpd/httpd-2.4.23.tar.bz2 file://server-makefile.patch file://httpd-2.4.1-corelimit.patch file://httpd-2.4.4-export.patch file://httpd-2.4.1-selinux.patch file://apache-configure_perlbin.patch file://replace-lynx-to-curl-in-apachectl-script.patch file://apache-ssl-ltmain-rpath.patch file://httpd-2.4.3-fix-race-issue-of-dir-install.patch file://0001-configure-use-pkg-config-for-PCRE-detection.patch file://configure-allow-to-disable-selinux-support.patch file://init file://apache2-volatile.conf file://apache2.service file://0001-ssl-clear-the-error-queue-before-SSL_read-write-acce.patch file://mod_session-SessionExpiryUpdateInterval.patch
+Description:  Apache HTTP Server  The Apache HTTP Server is a powerful, efficient, and
+ extensible web   server.
+OE: apache2
+HomePage: http://httpd.apache.org/
+License: Apache-2.0
+Priority: optional
+
+Package: apt-dbg
+Version: 1.0.10.1-r0.2
+Recommends: libcurl-dbg, libstdc++-dbg, libgcc-s-dbg, libz-dbg, liblzma-dbg, libc6-dbg
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 7f0ea7784226c8ff85d886c7f213ce24
+Size: 7859610
+Filename: apt-dbg_1.0.10.1-r0.2_cortexa9-vfpv3.ipk
+Source: http://snapshot.debian.org/archive/debian/20150805T094928Z/pool/main/a/apt/apt_1.0.10.1.tar.xz file://use-host.patch file://makerace.patch file://no-nls-dpkg.patch file://fix-gcc-4.6-null-not-defined.patch file://truncate-filename.patch file://nodoc.patch file://disable-configure-in-makefile.patch file://disable-test.patch file://0001-environment.mak-musl-based-systems-can-generate-shar.patch
+Description:  Advanced front-end for dpkg - Debugging files  Advanced front-end for
+ dpkg.  This package contains ELF symbols and   related sources for
+ debugging purposes.
+OE: apt
+License: GPLv2.0+
+Priority: optional
+
+Package: apt-dev
+Version: 1.0.10.1-r0.2
+Depends: apt (= 1.0.10.1-r0.2)
+Recommends: libgcc-s-dev, libcurl-dev, libz-dev, curl-dev, debianutils-dev, liblzma-dev, libstdc++-dev, libc6-dev, db-dev, dpkg-dev, bash-dev, xz-dev
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: d136fdcc5bf19bfb14b0a0c1ee0d25fe
+Size: 99664
+Filename: apt-dev_1.0.10.1-r0.2_cortexa9-vfpv3.ipk
+Source: http://snapshot.debian.org/archive/debian/20150805T094928Z/pool/main/a/apt/apt_1.0.10.1.tar.xz file://use-host.patch file://makerace.patch file://no-nls-dpkg.patch file://fix-gcc-4.6-null-not-defined.patch file://truncate-filename.patch file://nodoc.patch file://disable-configure-in-makefile.patch file://disable-test.patch file://0001-environment.mak-musl-based-systems-can-generate-shar.patch
+Description:  Advanced front-end for dpkg - Development files  Advanced front-end for
+ dpkg.  This package contains symbolic links,   header files, and related
+ items necessary for software development.
+OE: apt
+License: GPLv2.0+
+Priority: optional
+
+Package: apt-doc
+Version: 1.0.10.1-r0.2
+Section: doc
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: be5e7a6b4e672641d572bd0acc37247f
+Size: 10092
+Filename: apt-doc_1.0.10.1-r0.2_cortexa9-vfpv3.ipk
+Source: http://snapshot.debian.org/archive/debian/20150805T094928Z/pool/main/a/apt/apt_1.0.10.1.tar.xz file://use-host.patch file://makerace.patch file://no-nls-dpkg.patch file://fix-gcc-4.6-null-not-defined.patch file://truncate-filename.patch file://nodoc.patch file://disable-configure-in-makefile.patch file://disable-test.patch file://0001-environment.mak-musl-based-systems-can-generate-shar.patch
+Description:  Advanced front-end for dpkg - Documentation files  Advanced front-end for
+ dpkg.  This package contains documentation.
+OE: apt
+License: GPLv2.0+
+Priority: optional
+
+Package: apt-utils
+Version: 1.0.10.1-r0.2
+Depends: libgcc1 (>= 5.3.0), libstdc++6 (>= 5.3.0), apt (>= 1.0.10.1), libc6 (>= 2.23)
+Section: base
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 0731fc3d376ac0577dc33f6d44ef47f0
+Size: 17004
+Filename: apt-utils_1.0.10.1-r0.2_cortexa9-vfpv3.ipk
+Source: http://snapshot.debian.org/archive/debian/20150805T094928Z/pool/main/a/apt/apt_1.0.10.1.tar.xz file://use-host.patch file://makerace.patch file://no-nls-dpkg.patch file://fix-gcc-4.6-null-not-defined.patch file://truncate-filename.patch file://nodoc.patch file://disable-configure-in-makefile.patch file://disable-test.patch file://0001-environment.mak-musl-based-systems-can-generate-shar.patch
+Description:  Advanced front-end for dpkg  Advanced front-end for dpkg.
+OE: apt
+License: GPLv2.0+
+Priority: optional
+
+Package: apt
+Version: 1.0.10.1-r0.2
+Depends: libgcc1 (>= 5.3.0), libstdc++6 (>= 5.3.0), liblzma5 (>= 5.2.2), libz1 (>= 1.2.8), libcurl4 (>= 7.51.0), bash, libc6 (>= 2.23), dpkg, debianutils
+Section: base
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 5927a262ef6aa496df1a067eb3ae1d5a
+Size: 895258
+Filename: apt_1.0.10.1-r0.2_cortexa9-vfpv3.ipk
+Source: http://snapshot.debian.org/archive/debian/20150805T094928Z/pool/main/a/apt/apt_1.0.10.1.tar.xz file://use-host.patch file://makerace.patch file://no-nls-dpkg.patch file://fix-gcc-4.6-null-not-defined.patch file://truncate-filename.patch file://nodoc.patch file://disable-configure-in-makefile.patch file://disable-test.patch file://0001-environment.mak-musl-based-systems-can-generate-shar.patch
+Description:  Advanced front-end for dpkg  Advanced front-end for dpkg.
+OE: apt
+License: GPLv2.0+
+Priority: optional
+
+Package: arptables-dbg
+Version: 0.0.3-4-r2.7
+Recommends: libc6-dbg
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: a2a682f4cc301dfc254f7e4ef287d3aa
+Size: 92932
+Filename: arptables-dbg_0.0.3-4-r2.7_cortexa9-vfpv3.ipk
+Source: http://downloads.sourceforge.net/ebtables/arptables-v0.0.3-4.tar.gz;name=arptables file://arptables-compile-install.patch file://arptables-init-busybox.patch file://arptables-arpt-get-target-fix.patch file://arptables-remove-bashism.patch
+Description:  Administration tool for arp packet filtering - Debugging files
+ Administration tool for arp packet filtering.  This package contains ELF
+ symbols and related sources for debugging purposes.
+OE: arptables
+License: GPL-2.0
+Priority: optional
+
+Package: arptables-dev
+Version: 0.0.3-4-r2.7
+Depends: arptables (= 0.0.3-4-r2.7)
+Recommends: perl-dev, libc6-dev
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 11bd63abdf9a8cc53031cf646cb5b1ce
+Size: 856
+Filename: arptables-dev_0.0.3-4-r2.7_cortexa9-vfpv3.ipk
+Source: http://downloads.sourceforge.net/ebtables/arptables-v0.0.3-4.tar.gz;name=arptables file://arptables-compile-install.patch file://arptables-init-busybox.patch file://arptables-arpt-get-target-fix.patch file://arptables-remove-bashism.patch
+Description:  Administration tool for arp packet filtering - Development files
+ Administration tool for arp packet filtering.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+OE: arptables
+License: GPL-2.0
+Priority: optional
+
+Package: arptables-doc
+Version: 0.0.3-4-r2.7
+Section: doc
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 996fce3263f0ac838921b00d86324635
+Size: 4898
+Filename: arptables-doc_0.0.3-4-r2.7_cortexa9-vfpv3.ipk
+Source: http://downloads.sourceforge.net/ebtables/arptables-v0.0.3-4.tar.gz;name=arptables file://arptables-compile-install.patch file://arptables-init-busybox.patch file://arptables-arpt-get-target-fix.patch file://arptables-remove-bashism.patch
+Description:  Administration tool for arp packet filtering - Documentation files
+ Administration tool for arp packet filtering.  This package contains
+ documentation.
+OE: arptables
+License: GPL-2.0
+Priority: optional
+
+Package: arptables
+Version: 0.0.3-4-r2.7
+Depends: libc6 (>= 2.23), perl
+Section: net
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: e566ef7a6e17f2cbeac59b79c3fabd6a
+Size: 24504
+Filename: arptables_0.0.3-4-r2.7_cortexa9-vfpv3.ipk
+Source: http://downloads.sourceforge.net/ebtables/arptables-v0.0.3-4.tar.gz;name=arptables file://arptables-compile-install.patch file://arptables-init-busybox.patch file://arptables-arpt-get-target-fix.patch file://arptables-remove-bashism.patch
+Description:  Administration tool for arp packet filtering  Administration tool for arp
+ packet filtering.
+OE: arptables
+License: GPL-2.0
+Priority: optional
+
+Package: aspell-dbg
+Version: 0.60.6.1-r1.18
+Recommends: libc6-dbg, libstdc++-dbg, libgcc-s-dbg, libaspell-dbg
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: d356cdd8125dcdab52d192aa54ad0d93
+Size: 2497064
+Filename: aspell-dbg_0.60.6.1-r1.18_cortexa9-vfpv3.ipk
+Source: http://ftp.gnu.org/gnu/aspell/aspell-0.60.6.1.tar.gz
+Description:  GNU Aspell spell-checker - Debugging files  GNU Aspell spell-checker.
+ This package contains ELF symbols and related   sources for debugging
+ purposes.
+OE: aspell
+License: LGPLv2 | LGPLv2.1
+Priority: optional
+
+Package: aspell-dev
+Version: 0.60.6.1-r1.18
+Depends: libaspell15, aspell (= 0.60.6.1-r1.18), libpspell15
+Recommends: libaspell-dev, libgcc-s-dev, libc6-dev, libstdc++-dev, perl-dev, libpspell-dev
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 6a6df63db03806ebad7304e36695bc9a
+Size: 7626
+Filename: aspell-dev_0.60.6.1-r1.18_cortexa9-vfpv3.ipk
+Source: http://ftp.gnu.org/gnu/aspell/aspell-0.60.6.1.tar.gz
+Description:  GNU Aspell spell-checker - Development files  GNU Aspell spell-checker.
+ This package contains symbolic links, header   files, and related items
+ necessary for software development.
+OE: aspell
+License: LGPLv2 | LGPLv2.1
+Priority: optional
+
+Package: aspell-doc
+Version: 0.60.6.1-r1.18
+Section: doc
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 11036dadd2f37c5f47ae732b78187b0f
+Size: 117680
+Filename: aspell-doc_0.60.6.1-r1.18_cortexa9-vfpv3.ipk
+Source: http://ftp.gnu.org/gnu/aspell/aspell-0.60.6.1.tar.gz
+Description:  GNU Aspell spell-checker - Documentation files  GNU Aspell spell-checker.
+ This package contains documentation.
+OE: aspell
+License: LGPLv2 | LGPLv2.1
+Priority: optional
+
+Package: aspell-locale
+Version: 0.60.6.1-r1.18
+Section: console/utils
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 35f86dbbee77690abb269841f556fc52
+Size: 228402
+Filename: aspell-locale_0.60.6.1-r1.18_cortexa9-vfpv3.ipk
+Source: http://ftp.gnu.org/gnu/aspell/aspell-0.60.6.1.tar.gz
+Description:  GNU Aspell spell-checker  GNU Aspell spell-checker.
+OE: aspell
+License: LGPLv2 | LGPLv2.1
+Priority: optional
+
+Package: aspell-utils
+Version: 0.60.6.1-r1.18
+Depends: libc6 (>= 2.23), perl
+Section: console/utils
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: fb041d4abebda4825972c482b191058e
+Size: 8452
+Filename: aspell-utils_0.60.6.1-r1.18_cortexa9-vfpv3.ipk
+Source: http://ftp.gnu.org/gnu/aspell/aspell-0.60.6.1.tar.gz
+Description:  GNU Aspell spell-checker  GNU Aspell spell-checker.
+OE: aspell
+License: LGPLv2 | LGPLv2.1
+Priority: optional
+
+Package: aspell
+Version: 0.60.6.1-r1.18
+Depends: libgcc1 (>= 5.3.0), libaspell15 (>= 0.60.6.1), libstdc++6 (>= 5.3.0), libc6 (>= 2.23)
+Section: console/utils
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 7a24f52764bd1b1f82a4a2c92a2fa28e
+Size: 52968
+Filename: aspell_0.60.6.1-r1.18_cortexa9-vfpv3.ipk
+Source: http://ftp.gnu.org/gnu/aspell/aspell-0.60.6.1.tar.gz
+Description:  GNU Aspell spell-checker  GNU Aspell spell-checker.
+OE: aspell
+License: LGPLv2 | LGPLv2.1
+Priority: optional
+
+Package: at-dbg
+Version: 3.1.18-r0.3
+Recommends: libselinux-dbg, flex-dbg, libpam-dbg, libc6-dbg
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: c27f85eb0bc9e8be93b647ca240094f5
+Size: 116226
+Filename: at-dbg_3.1.18-r0.3_cortexa9-vfpv3.ipk
+Source: http://snapshot.debian.org/archive/debian/20160509T100042Z/pool/main/a/at/at_3.1.18.orig.tar.gz;subdir=at-3.1.18 file://fix_parallel_build_error.patch file://posixtm.c file://posixtm.h file://file_replacement_with_gplv2.patch file://atd.init file://atd.service file://pam.conf.patch file://configure-add-enable-pam.patch file://makefile-fix-parallel.patch file://0001-remove-glibc-assumption.patch file://configure-fix-with-without-selinux.patch
+Description:  Delayed job execution and batch processing - Debugging files  At allows
+ for commands to be run at a particular time.  Batch will   execute
+ commands when the system load levels drop to a particular level.   This
+ package contains ELF symbols and related sources for debugging
+ purposes.
+OE: at
+License: GPLv2+
+Priority: optional
+
+Package: at-dev
+Version: 3.1.18-r0.3
+Depends: at (= 3.1.18-r0.3)
+Recommends: libselinux-dev, libpam-runtime-dev, libpam-dev, pam-plugin-env-dev, initscripts-functions-dev, update-rc.d-dev, pam-plugin-limits-dev, libc6-dev, flex-dev, initscripts-dev
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 4cbcb06a6e483ed7b15c8db422d4dfd5
+Size: 1098
+Filename: at-dev_3.1.18-r0.3_cortexa9-vfpv3.ipk
+Source: http://snapshot.debian.org/archive/debian/20160509T100042Z/pool/main/a/at/at_3.1.18.orig.tar.gz;subdir=at-3.1.18 file://fix_parallel_build_error.patch file://posixtm.c file://posixtm.h file://file_replacement_with_gplv2.patch file://atd.init file://atd.service file://pam.conf.patch file://configure-add-enable-pam.patch file://makefile-fix-parallel.patch file://0001-remove-glibc-assumption.patch file://configure-fix-with-without-selinux.patch
+Description:  Delayed job execution and batch processing - Development files  At allows
+ for commands to be run at a particular time.  Batch will   execute
+ commands when the system load levels drop to a particular level.   This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+OE: at
+License: GPLv2+
+Priority: optional
+
+Package: at-doc
+Version: 3.1.18-r0.3
+Section: doc
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 4341ffd7adb50890184a125cd622b37b
+Size: 10122
+Filename: at-doc_3.1.18-r0.3_cortexa9-vfpv3.ipk
+Source: http://snapshot.debian.org/archive/debian/20160509T100042Z/pool/main/a/at/at_3.1.18.orig.tar.gz;subdir=at-3.1.18 file://fix_parallel_build_error.patch file://posixtm.c file://posixtm.h file://file_replacement_with_gplv2.patch file://atd.init file://atd.service file://pam.conf.patch file://configure-add-enable-pam.patch file://makefile-fix-parallel.patch file://0001-remove-glibc-assumption.patch file://configure-fix-with-without-selinux.patch
+Description:  Delayed job execution and batch processing - Documentation files  At
+ allows for commands to be run at a particular time.  Batch will   execute
+ commands when the system load levels drop to a particular level.   This
+ package contains documentation.
+OE: at
+License: GPLv2+
+Priority: optional
+
+Package: at
+Version: 3.1.18-r0.3
+Depends: libpam-runtime, flex (>= 2.6.0), pam-plugin-env, pam-plugin-limits, libselinux1 (>= 2.5), libc6 (>= 2.23), initscripts-functions, libpam (>= 1.2.1)
+Replaces: atd
+Conflicts: atd
+Recommends: update-rc.d
+Section: base
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: f8f353f40984911e44b09bab555e924d
+Size: 30050
+Filename: at_3.1.18-r0.3_cortexa9-vfpv3.ipk
+Source: http://snapshot.debian.org/archive/debian/20160509T100042Z/pool/main/a/at/at_3.1.18.orig.tar.gz;subdir=at-3.1.18 file://fix_parallel_build_error.patch file://posixtm.c file://posixtm.h file://file_replacement_with_gplv2.patch file://atd.init file://atd.service file://pam.conf.patch file://configure-add-enable-pam.patch file://makefile-fix-parallel.patch file://0001-remove-glibc-assumption.patch file://configure-fix-with-without-selinux.patch
+Description:  Delayed job execution and batch processing  At allows for commands to be
+ run at a particular time.  Batch will   execute commands when the system
+ load levels drop to a particular level.
+OE: at
+License: GPLv2+
+Priority: optional
+
+Package: atftp-dbg
+Version: 0.7.1+git0+be3291a18c-r3.7
+Recommends: libwrap-dbg, libc6-dbg
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: bdd208b15e930841d3034aebdbc33105
+Size: 161934
+Filename: atftp-dbg_0.7.1+git0+be3291a18c-r3.7_cortexa9-vfpv3.ipk
+Source: git://git.code.sf.net/p/atftp/code file://atftpd-0.7_circumvent_tftp_size_restrictions.patch file://atftpd-0.7_unprotected_assignments_crash.patch file://atftpd.init file://atftpd.service file://atftp-0.7-sorcerers_apprentice.patch
+Description:  Advanced TFTP server and client - Debugging files  Advanced TFTP server
+ and client.  This package contains ELF symbols and   related sources for
+ debugging purposes.
+OE: atftp
+HomePage: http://packages.debian.org/atftp
+License: GPLv2
+Priority: optional
+
+Package: atftp-dev
+Version: 0.7.1+git0+be3291a18c-r3.7
+Depends: atftp (= 0.7.1+git0+be3291a18c-r3.7)
+Recommends: tcp-wrappers-dev, base-passwd-dev, shadow-dev, shadow-sysroot-dev, base-files-dev, libwrap-dev, update-rc.d-dev, libc6-dev, initscripts-dev
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 6899938e01d6cc9c95e8e977a32d15ee
+Size: 940
+Filename: atftp-dev_0.7.1+git0+be3291a18c-r3.7_cortexa9-vfpv3.ipk
+Source: git://git.code.sf.net/p/atftp/code file://atftpd-0.7_circumvent_tftp_size_restrictions.patch file://atftpd-0.7_unprotected_assignments_crash.patch file://atftpd.init file://atftpd.service file://atftp-0.7-sorcerers_apprentice.patch
+Description:  Advanced TFTP server and client - Development files  Advanced TFTP server
+ and client.  This package contains symbolic links,   header files, and
+ related items necessary for software development.
+OE: atftp
+HomePage: http://packages.debian.org/atftp
+License: GPLv2
+Priority: optional
+
+Package: atftp-doc
+Version: 0.7.1+git0+be3291a18c-r3.7
+Section: doc
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 11687648506a18dac85a955977306c8d
+Size: 5426
+Filename: atftp-doc_0.7.1+git0+be3291a18c-r3.7_cortexa9-vfpv3.ipk
+Source: git://git.code.sf.net/p/atftp/code file://atftpd-0.7_circumvent_tftp_size_restrictions.patch file://atftpd-0.7_unprotected_assignments_crash.patch file://atftpd.init file://atftpd.service file://atftp-0.7-sorcerers_apprentice.patch
+Description:  Advanced TFTP server and client - Documentation files  Advanced TFTP
+ server and client.  This package contains documentation.
+OE: atftp
+HomePage: http://packages.debian.org/atftp
+License: GPLv2
+Priority: optional
+
+Package: atftp
+Version: 0.7.1+git0+be3291a18c-r3.7
+Depends: libc6 (>= 2.23)
+Section: net
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: dea6e34bf248be40a272121edec88b36
+Size: 19670
+Filename: atftp_0.7.1+git0+be3291a18c-r3.7_cortexa9-vfpv3.ipk
+Source: git://git.code.sf.net/p/atftp/code file://atftpd-0.7_circumvent_tftp_size_restrictions.patch file://atftpd-0.7_unprotected_assignments_crash.patch file://atftpd.init file://atftpd.service file://atftp-0.7-sorcerers_apprentice.patch
+Description:  Advanced TFTP server and client  Advanced TFTP server and client.
+OE: atftp
+HomePage: http://packages.debian.org/atftp
+License: GPLv2
+Priority: optional
+
+Package: atftpd
+Version: 0.7.1+git0+be3291a18c-r3.7
+Depends: shadow, libc6 (>= 2.23), base-passwd, libwrap0 (>= 7.6), base-files
+Provides: atftpd-systemd
+Replaces: atftpd-systemd
+Conflicts: atftpd-systemd
+Recommends: update-rc.d
+Section: net
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 63ff88316e022cdde77cdb0f25943a3a
+Size: 26356
+Filename: atftpd_0.7.1+git0+be3291a18c-r3.7_cortexa9-vfpv3.ipk
+Source: git://git.code.sf.net/p/atftp/code file://atftpd-0.7_circumvent_tftp_size_restrictions.patch file://atftpd-0.7_unprotected_assignments_crash.patch file://atftpd.init file://atftpd.service file://atftp-0.7-sorcerers_apprentice.patch
+Description:  Advanced TFTP server and client  Advanced TFTP server and client.
+OE: atftp
+HomePage: http://packages.debian.org/atftp
+License: GPLv2
+Priority: optional
+
+Package: attr-dbg
+Version: 2.4.47-r0.296
+Recommends: libc6-dbg, libattr-dbg
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 59d64ff39e350e7cc7370ad1fcb9526d
+Size: 68394
+Filename: attr-dbg_2.4.47-r0.296_cortexa9-vfpv3.ipk
+Source: http://download.savannah.gnu.org/releases/attr/attr-2.4.47.src.tar.gz file://run-ptest file://relative-libdir.patch;striplevel=0 file://attr-Missing-configure.ac.patch file://dont-use-decl-macros.patch
+Description:  Utilities for manipulating filesystem extended attributes - Debugging
+ files  Utilities for manipulating filesystem extended attributes.  This
+ package   contains ELF symbols and related sources for debugging
+ purposes.
+OE: attr
+HomePage: http://savannah.nongnu.org/projects/attr/
+License: LGPLv2.1+ & GPLv2+
+Priority: optional
+
+Package: attr-dev
+Version: 2.4.47-r0.296
+Depends: libattr1, attr (= 2.4.47-r0.296)
+Recommends: libattr-dev, ncurses-dev, libc6-dev
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 4a0c3b2e69577d1985b0b07db5e623f6
+Size: 5322
+Filename: attr-dev_2.4.47-r0.296_cortexa9-vfpv3.ipk
+Source: http://download.savannah.gnu.org/releases/attr/attr-2.4.47.src.tar.gz file://run-ptest file://relative-libdir.patch;striplevel=0 file://attr-Missing-configure.ac.patch file://dont-use-decl-macros.patch
+Description:  Utilities for manipulating filesystem extended attributes - Development
+ files  Utilities for manipulating filesystem extended attributes.  This
+ package   contains symbolic links, header files, and related items
+ necessary for   software development.
+OE: attr
+HomePage: http://savannah.nongnu.org/projects/attr/
+License: LGPLv2.1+ & GPLv2+
+Priority: optional
+
+Package: attr-doc
+Version: 2.4.47-r0.296
+Section: doc
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 295b8f57898d2a89a4d0060db6bb1795
+Size: 48088
+Filename: attr-doc_2.4.47-r0.296_cortexa9-vfpv3.ipk
+Source: http://download.savannah.gnu.org/releases/attr/attr-2.4.47.src.tar.gz file://run-ptest file://relative-libdir.patch;striplevel=0 file://attr-Missing-configure.ac.patch file://dont-use-decl-macros.patch
+Description:  Utilities for manipulating filesystem extended attributes - Documentation
+ files  Utilities for manipulating filesystem extended attributes.  This
+ package   contains documentation.
+OE: attr
+HomePage: http://savannah.nongnu.org/projects/attr/
+License: LGPLv2.1+ & GPLv2+
+Priority: optional
+
+Package: attr-locale
+Version: 2.4.47-r0.296
+Section: libs
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: ae438f23b5353ecf89254db03ec07a14
+Size: 10514
+Filename: attr-locale_2.4.47-r0.296_cortexa9-vfpv3.ipk
+Source: http://download.savannah.gnu.org/releases/attr/attr-2.4.47.src.tar.gz file://run-ptest file://relative-libdir.patch;striplevel=0 file://attr-Missing-configure.ac.patch file://dont-use-decl-macros.patch
+Description:  Utilities for manipulating filesystem extended attributes  Utilities for
+ manipulating filesystem extended attributes.
+OE: attr
+HomePage: http://savannah.nongnu.org/projects/attr/
+License: LGPLv2.1+ & GPLv2+
+Priority: optional
+
+Package: attr-staticdev
+Version: 2.4.47-r0.296
+Depends: attr-dev (= 2.4.47-r0.296)
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 3dd85ad121e60790845d8e73bc146ba4
+Size: 24988
+Filename: attr-staticdev_2.4.47-r0.296_cortexa9-vfpv3.ipk
+Source: http://download.savannah.gnu.org/releases/attr/attr-2.4.47.src.tar.gz file://run-ptest file://relative-libdir.patch;striplevel=0 file://attr-Missing-configure.ac.patch file://dont-use-decl-macros.patch
+Description:  Utilities for manipulating filesystem extended attributes - Development
+ files (Static Libraries)  Utilities for manipulating filesystem extended
+ attributes.  This package   contains static libraries for software
+ development.
+OE: attr
+HomePage: http://savannah.nongnu.org/projects/attr/
+License: LGPLv2.1+ & GPLv2+
+Priority: optional
+
+Package: attr
+Version: 2.4.47-r0.296
+Depends: libattr1 (>= 2.4.47), libc6 (>= 2.23)
+Section: libs
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: ec2626110f00c7fc92f03318b350cf83
+Size: 14908
+Filename: attr_2.4.47-r0.296_cortexa9-vfpv3.ipk
+Source: http://download.savannah.gnu.org/releases/attr/attr-2.4.47.src.tar.gz file://run-ptest file://relative-libdir.patch;striplevel=0 file://attr-Missing-configure.ac.patch file://dont-use-decl-macros.patch
+Description:  Utilities for manipulating filesystem extended attributes  Utilities for
+ manipulating filesystem extended attributes.
+OE: attr
+HomePage: http://savannah.nongnu.org/projects/attr/
+License: GPLv2+
+Priority: optional
+
+Package: audispd-plugins
+Version: 2.6.6-r0.17
+Section: base
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 0ae9307fba2719ece721e44f7d9a9784
+Size: 1474
+Filename: audispd-plugins_2.6.6-r0.17_cortexa9-vfpv3.ipk
+Source: http://people.redhat.com/sgrubb/audit/audit-2.6.6.tar.gz file://audit-python-configure.patch file://audit-python.patch file://fix-swig-host-contamination.patch file://auditd file://auditd.service file://audit-volatile.conf
+Description:  Plugins for the audit event dispatcher  The audispd-plugins package
+ provides plugins for the real-time interface   to the audit system,
+ audispd. These plugins can do things like relay   events to remote
+ machines or analyze events for suspicious behavior.
+OE: audit
+HomePage: http://people.redhat.com/sgrubb/audit/
+License: GPLv2+ & LGPLv2+
+Priority: optional
+
+Package: audit-dbg
+Version: 2.6.6-r0.17
+Recommends: libwrap-dbg, libc6-dbg, libcap-ng-dbg
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: c1888bc35080c973225442e13a1ceee8
+Size: 1164342
+Filename: audit-dbg_2.6.6-r0.17_cortexa9-vfpv3.ipk
+Source: http://people.redhat.com/sgrubb/audit/audit-2.6.6.tar.gz file://audit-python-configure.patch file://audit-python.patch file://fix-swig-host-contamination.patch file://auditd file://auditd.service file://audit-volatile.conf
+Description:  User space tools for kernel auditing - Debugging files  The audit package
+ contains the user space utilities for storing and   searching the audit
+ records generated by the audit subsystem in the Linux   kernel.  This
+ package contains ELF symbols and related sources for   debugging
+ purposes.
+OE: audit
+HomePage: http://people.redhat.com/sgrubb/audit/
+License: GPLv2+ & LGPLv2+
+Priority: optional
+
+Package: audit-dev
+Version: 2.6.6-r0.17
+Depends: audit (= 2.6.6-r0.17)
+Recommends: tcp-wrappers-dev, libcap-ng-dev, libwrap-dev, initscripts-functions-dev, update-rc.d-dev, libc6-dev, linux-libc-headers-dev, bash-dev, python-dev, initscripts-dev
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 9de7ac23a423a450da4ba94cfd2398ea
+Size: 11090
+Filename: audit-dev_2.6.6-r0.17_cortexa9-vfpv3.ipk
+Source: http://people.redhat.com/sgrubb/audit/audit-2.6.6.tar.gz file://audit-python-configure.patch file://audit-python.patch file://fix-swig-host-contamination.patch file://auditd file://auditd.service file://audit-volatile.conf
+Description:  User space tools for kernel auditing - Development files  The audit
+ package contains the user space utilities for storing and   searching the
+ audit records generated by the audit subsystem in the Linux   kernel.
+ This package contains symbolic links, header files, and related   items
+ necessary for software development.
+OE: audit
+HomePage: http://people.redhat.com/sgrubb/audit/
+License: GPLv2+ & LGPLv2+
+Priority: optional
+
+Package: audit-doc
+Version: 2.6.6-r0.17
+Section: doc
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: a2cd51e92e65b65603ffd3329fcd29b9
+Size: 54494
+Filename: audit-doc_2.6.6-r0.17_cortexa9-vfpv3.ipk
+Source: http://people.redhat.com/sgrubb/audit/audit-2.6.6.tar.gz file://audit-python-configure.patch file://audit-python.patch file://fix-swig-host-contamination.patch file://auditd file://auditd.service file://audit-volatile.conf
+Description:  User space tools for kernel auditing - Documentation files  The audit
+ package contains the user space utilities for storing and   searching the
+ audit records generated by the audit subsystem in the Linux   kernel.
+ This package contains documentation.
+OE: audit
+HomePage: http://people.redhat.com/sgrubb/audit/
+License: GPLv2+ & LGPLv2+
+Priority: optional
+
+Package: audit-python
+Version: 2.6.6-r0.17
+Depends: audit (>= 2.6.6), libcap-ng0 (>= 0.7.7), libc6 (>= 2.23)
+Section: base
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 30a722b59dc0f6be28518b2a302e665f
+Size: 102950
+Filename: audit-python_2.6.6-r0.17_cortexa9-vfpv3.ipk
+Source: http://people.redhat.com/sgrubb/audit/audit-2.6.6.tar.gz file://audit-python-configure.patch file://audit-python.patch file://fix-swig-host-contamination.patch file://auditd file://auditd.service file://audit-volatile.conf
+Description:  User space tools for kernel auditing  The audit package contains the user
+ space utilities for storing and   searching the audit records generated
+ by the audit subsystem in the Linux   kernel.
+OE: audit
+HomePage: http://people.redhat.com/sgrubb/audit/
+License: GPLv2+ & LGPLv2+
+Priority: optional
+
+Package: audit-staticdev
+Version: 2.6.6-r0.17
+Depends: audit-dev (= 2.6.6-r0.17)
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: a8ea4fdefb47ae73e942700594f1be3f
+Size: 272048
+Filename: audit-staticdev_2.6.6-r0.17_cortexa9-vfpv3.ipk
+Source: http://people.redhat.com/sgrubb/audit/audit-2.6.6.tar.gz file://audit-python-configure.patch file://audit-python.patch file://fix-swig-host-contamination.patch file://auditd file://auditd.service file://audit-volatile.conf
+Description:  User space tools for kernel auditing - Development files (Static
+ Libraries)  The audit package contains the user space utilities for
+ storing and   searching the audit records generated by the audit
+ subsystem in the Linux   kernel.  This package contains static libraries
+ for software development.
+OE: audit
+HomePage: http://people.redhat.com/sgrubb/audit/
+License: GPLv2+ & LGPLv2+
+Priority: optional
+
+Package: audit
+Version: 2.6.6-r0.17
+Depends: libcap-ng0 (>= 0.7.7), libc6 (>= 2.23)
+Section: base
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 63635a597c27d5fc5dbb593db14c9ad7
+Size: 78858
+Filename: audit_2.6.6-r0.17_cortexa9-vfpv3.ipk
+Source: http://people.redhat.com/sgrubb/audit/audit-2.6.6.tar.gz file://audit-python-configure.patch file://audit-python.patch file://fix-swig-host-contamination.patch file://auditd file://auditd.service file://audit-volatile.conf
+Description:  User space tools for kernel auditing  The audit package contains the user
+ space utilities for storing and   searching the audit records generated
+ by the audit subsystem in the Linux   kernel.
+OE: audit
+HomePage: http://people.redhat.com/sgrubb/audit/
+License: GPLv2+ & LGPLv2+
+Priority: optional
+
+Package: auditd
+Version: 2.6.6-r0.17
+Depends: audit (>= 2.6.6), libcap-ng0 (>= 0.7.7), libwrap0 (>= 7.6), libc6 (>= 2.23), initscripts-functions, bash
+Recommends: update-rc.d
+Section: base
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 22a1b0636538e438130f490c255517bf
+Size: 179646
+Filename: auditd_2.6.6-r0.17_cortexa9-vfpv3.ipk
+Source: http://people.redhat.com/sgrubb/audit/audit-2.6.6.tar.gz file://audit-python-configure.patch file://audit-python.patch file://fix-swig-host-contamination.patch file://auditd file://auditd.service file://audit-volatile.conf
+Description:  User space tools for kernel auditing  The audit package contains the user
+ space utilities for storing and   searching the audit records generated
+ by the audit subsystem in the Linux   kernel.
+OE: audit
+HomePage: http://people.redhat.com/sgrubb/audit/
+License: GPLv2+ & LGPLv2+
+Priority: optional
+
+Package: aufs-util-dbg
+Version: 3.14+git0+b59a2167a1-r0.3
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 1144a5c76300d664595169f5f10af495
+Size: 4874372
+Filename: aufs-util-dbg_3.14+git0+b59a2167a1-r0.3_cortexa9-vfpv3.ipk
+Source: git://git.code.sf.net/p/aufs/aufs-util;protocol=git;branch=aufs3.14 file://aufs-util-don-t-strip-executables.patch file://aufs-util-add-tool-concept-to-Makefile-for-cross-com.patch file://aufs_type.h
+Description:  Tools for managing AUFS mounts - Debugging files  Tools for managing AUFS
+ mounts.  This package contains ELF symbols and   related sources for
+ debugging purposes.
+OE: aufs-util
+HomePage: http://aufs.sourceforge.net/
+License: GPLv2
+Priority: optional
+
+Package: aufs-util-dev
+Version: 3.14+git0+b59a2167a1-r0.3
+Depends: aufs-util (= 3.14+git0+b59a2167a1-r0.3)
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: 95f62698671aa836dc4449d7079f6f7e
+Size: 864
+Filename: aufs-util-dev_3.14+git0+b59a2167a1-r0.3_cortexa9-vfpv3.ipk
+Source: git://git.code.sf.net/p/aufs/aufs-util;protocol=git;branch=aufs3.14 file://aufs-util-don-t-strip-executables.patch file://aufs-util-add-tool-concept-to-Makefile-for-cross-com.patch file://aufs_type.h
+Description:  Tools for managing AUFS mounts - Development files  Tools for managing
+ AUFS mounts.  This package contains symbolic links,   header files, and
+ related items necessary for software development.
+OE: aufs-util
+HomePage: http://aufs.sourceforge.net/
+License: GPLv2
+Priority: optional
+
+Package: aufs-util
+Version: 3.14+git0+b59a2167a1-r0.3
+Recommends: kernel-module-aufs
+Section: base
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: af0589c761975656d672c270db3f6a8a
+Size: 1264808
+Filename: aufs-util_3.14+git0+b59a2167a1-r0.3_cortexa9-vfpv3.ipk
+Source: git://git.code.sf.net/p/aufs/aufs-util;protocol=git;branch=aufs3.14 file://aufs-util-don-t-strip-executables.patch file://aufs-util-add-tool-concept-to-Makefile-for-cross-com.patch file://aufs_type.h
+Description:  Tools for managing AUFS mounts  Tools for managing AUFS mounts.
+OE: aufs-util
+HomePage: http://aufs.sourceforge.net/
+License: GPLv2
+Priority: optional
+
+Package: augeas-dbg
+Version: 1.4.0-r0.3
+Recommends: libselinux-dbg, libreadline-dbg, libgcc-s-dbg, libz-dbg, libaugeas-dbg, libc6-dbg, libxml2-dbg
+Section: devel
+Architecture: cortexa9-vfpv3
+Maintainer: NI Linux Real-Time Maintainers <nilrt@ni.com>
+MD5Sum: fa9353f87b8d2f41ddbba87ceec0080e
+Size: 1040288
+Filename: augeas-dbg_1.4.0-r0.3_cortexa9-vfpv3.ipk
+Source: http://download.augeas.net/augeas-1.4.0.tar.gz file://add-missing-argz-conditional.patch file://sepbuildfix.patch file://0001-Unset-need_charset_alias-when-building-for-musl.patch
+Description:  Augeas configuration API - Debugging files  Augeas configuration API.
+ This package contains ELF symbols and related   sources for debugging
+ purposes.
+OE: augeas
+HomePage: http://augeas.net/
+License: LGPLv2.1+
+Priority: optional
+
+Pac

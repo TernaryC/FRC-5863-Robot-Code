@@ -59,7 +59,7 @@ class MyRobot(wpilib.IterativeRobot):
 		self.pwm[1] = wpilib.Victor(1)
 		self.pwm[2] = wpilib.Spark(2)
 		self.pwm[3] = wpilib.Spark(3)
-		self.pwm[7] = wpilib.Servo(7)
+		self.pwm[7] = wpilib.Victor(7)
 		self.pwm[8] = wpilib.Victor(8)
 		self.pwm[9] = wpilib.Victor(9)
 		

@@ -50,8 +50,7 @@ class MyRobot(wpilib.IterativeRobot):
 		
 		### Setup Camera ###
 		wpilib.CameraServer.launch("vision.py:main")
-		
-		
+			
 		### Drive Train Initialization ###
 		
 		# Motors

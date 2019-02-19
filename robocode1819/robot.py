@@ -78,6 +78,7 @@ class MyRobot(wpilib.IterativeRobot):
 		
 		### Variables ###
 		
+		self.launchTick = 0
 		self.allignment = True
 		self.direction = -1
 		
@@ -147,8 +148,16 @@ class MyRobot(wpilib.IterativeRobot):
 		else: self.pwm[8].set(0)
 		
 		# Ball Shooter
-		if holdRB: self.pwm[9].set(-1)
-		else: self.pwm[9].set(0)
+		print(self.launchTick)
+		if holdRB:
+			self.launchTick += 1
+			if self.launchTick <= 5:
+				self.pwm[9].set(-1)
+			else:
+				self.pwm[9].set(0)
+		else:
+			self.pwm[9].set(0)
+			self.launchTick = 0
 		
 		# Ramp
 		if holdB: self.pwm[7].set(0.5)
@@ -194,6 +203,7 @@ class MyRobot(wpilib.IterativeRobot):
 		rightH = GenericHID.Hand.kRight
 		leftT = self.gamepad.getTriggerAxis(leftH) # These don't work in the robotsim!
 		rightT = self.gamepad.getTriggerAxis(rightH)
+		print("TEST")
 		pass
 
 if __name__ == "__main__":

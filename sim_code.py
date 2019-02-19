@@ -2,7 +2,7 @@ import os
 while True:
 	year = input("Year to sim...")
 	try:
-		os.chdir("C:\\Users\\pah\\FRC\\robocode{}".format(year))
+		os.chdir("C:\\Users\\pah\\Documents\\Robocode\\robocode{}".format(year))
 	except:
 		print("Invalid year")
 		continue

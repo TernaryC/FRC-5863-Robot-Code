@@ -151,7 +151,7 @@ class MyRobot(wpilib.IterativeRobot):
 		print(self.launchTick)
 		if holdRB:
 			self.launchTick += 1
-			if self.launchTick <= 5:
+			if self.launchTick <= 2000:
 				self.pwm[9].set(-1)
 			else:
 				self.pwm[9].set(0)
@@ -173,8 +173,7 @@ class MyRobot(wpilib.IterativeRobot):
 		wpilib.SmartDashboard.putNumber("Drive BR", self.pwm[3].get())
 		wpilib.SmartDashboard.putNumber("Retrieve", self.pwm[8].get())
 		wpilib.SmartDashboard.putNumber("Launcher", self.pwm[9].get())
-		wpilib.SmartDashboard.putNumber("Pin Servo", self.pwm[7].get())
-		wpilib.SmartDashboard.putNumber("Pin Angle", self.pwm[7].getAngle())
+		wpilib.SmartDashboard.putNumber("Pin Motor", self.pwm[7].get())
 		
 		wpilib.SmartDashboard.putNumber("Left Stick X", leftX)
 		wpilib.SmartDashboard.putNumber("Left Stick Y", leftY)
@@ -201,10 +200,8 @@ class MyRobot(wpilib.IterativeRobot):
 	def testPeriodic(self):
 		leftH = GenericHID.Hand.kLeft
 		rightH = GenericHID.Hand.kRight
-		leftT = self.gamepad.getTriggerAxis(leftH) # These don't work in the robotsim!
+		leftT = self.gamepad.getTriggerAxis(leftH)
 		rightT = self.gamepad.getTriggerAxis(rightH)
-		print("TEST")
-		pass
 
 if __name__ == "__main__":
 	wpilib.run(MyRobot)

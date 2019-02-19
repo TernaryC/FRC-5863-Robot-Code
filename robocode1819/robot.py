@@ -148,7 +148,8 @@ class MyRobot(wpilib.IterativeRobot):
 		else: self.pwm[8].set(0)
 		
 		# Ball Shooter
-		print(self.launchTick)
+		#print(self.launchTick)
+		"""
 		if holdRB:
 			self.launchTick += 1
 			if self.launchTick <= 2000:
@@ -158,6 +159,8 @@ class MyRobot(wpilib.IterativeRobot):
 		else:
 			self.pwm[9].set(0)
 			self.launchTick = 0
+		"""
+		self.pwm[9].set(-leftT)
 		
 		# Ramp
 		if holdB: self.pwm[7].set(0.5)
